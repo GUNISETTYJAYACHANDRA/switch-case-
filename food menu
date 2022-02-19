@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main()
+{
+int value;
+scanf("%d",&value);
+switch(value)
+{
+case 1:printf("food item - pizza\n");
+       printf("cost - RS 239");
+break;
+case 2: printf("food item - burger\n");
+        printf("cost - 129");
+break;
+case 3: printf("food item - pasta\n");
+        printf("cost- 179");
+break;
+case 4: printf("food item - frenchfries\n");
+        printf("cost - 99");
+break;
+case 5: printf("food item - sandwich\n");
+        printf("cost - 149");
+break;
+}
+}
